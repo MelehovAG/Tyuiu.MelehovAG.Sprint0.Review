@@ -41,7 +41,7 @@ namespace Tyuiu.MelehovAG.Sprint0.TaskReview.V0
             int thirdArg = Convert.ToInt32(thirdString);
             Console.WriteLine("***************************************************************************");
             int result = DataService.Calc(firstArg, secondArg, thirdArg);
-            Console.WriteLine("* Результат сложения введенных чисел: " + result.ToString() + "");
+            Console.WriteLine("* Результат выполнения программы: " + result.ToString() + "");
             Console.WriteLine("***************************************************************************");
 
             Console.ReadKey();
